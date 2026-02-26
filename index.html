@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <div class="navbar">
+            <h1>The Muppets!</h1>
+
+            <a href="#">Waldorf</a>
+            <a href="#">Stadler</a>
+        </div>
+    </header>
+
+    <button onclick="toggleElement('wow')">Press Me</button>
+    <!-- hide div at first -->
+    <div id="wow" style="display: none">
+        <h3>HELLO</h3>
+    </div>
+    <br>
+
+    <script>
+        // function to toggle an element's visibility
+        function toggleElement(div) {
+            let elem = document.getElementById(div)
+
+            if (elem.style.display === "none") {
+                elem.style.display = "block";
+            } else {
+                elem.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
