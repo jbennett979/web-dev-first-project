@@ -58,12 +58,12 @@ button:hover {
     flex: 30%;
     scale: 105%
 }
+.navbar .active {
+    text-decoration: underline;
+}
 
 
 h1 {
     padding: 10px;
 }
 
-.active h1, p {
-    text-decoration: underline;
-}
