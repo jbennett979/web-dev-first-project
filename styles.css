@@ -158,3 +158,5 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 700px) {.navbar { flex-direction: column; } }
