@@ -7,9 +7,10 @@ Color palette:
 #870609 red
 */
 
-/* * {
-    box-sizing: border-box;
-} */
+* {
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 body {
     background-color: #F2F2F2;
@@ -35,11 +36,7 @@ button:hover {
 .navbar {
     display: flex;
     background-color: #a3be57;
-    /* padding: 10px; */
-    /* width: 100%; */
     overflow: auto;
-    /* align-content: center; */
-
 }
 
 /* Style the navigation bar links */
@@ -63,6 +60,7 @@ button:hover {
 }
 .navbar .active {
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .navbar p {
@@ -86,15 +84,19 @@ footer {
     font-size: 12px;
 }
 
-.table {
+.directory {
     display: flex;
     flex-direction: column;
 }
 
-.table img {
+.directory img {
     width:  100px;
     height: 100px;
     object-fit: cover;
+}
+
+.name {
+    font-weight: bold;
 }
 
 .psa {
