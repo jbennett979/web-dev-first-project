@@ -12,7 +12,7 @@ Color palette:
 } */
 
 body {
-    background-color: #F2F2F2;
+    background-color:#870609;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -95,6 +95,16 @@ footer {
     width:  100px;
     height: 100px;
     object-fit: cover;
+}
+
+.movies {
+    color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+}
+.movies table, th, td {
+    border: 1px solid #F24405;
+    border-collapse: collapse;
 }
 
 .psa {
