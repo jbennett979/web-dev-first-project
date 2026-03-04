@@ -14,6 +14,9 @@ Color palette:
 body {
     background-color: #F2F2F2;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height:100svh;
 }
 
 #wow {
@@ -36,6 +39,7 @@ button:hover {
     /* width: 100%; */
     overflow: auto;
     align-content: center;
+
 }
 
 /* Style the navigation bar links */
@@ -48,22 +52,22 @@ button:hover {
 }
 .navbar img {
     height: 75px;
-    /* border: 5px; */
 }
 
 /* Change color on hover */
 .navbar a:hover {
     background-color: #8aa14a;
     color: black;
-    flex: 30%;
+    /* flex: 30%; */
     scale: 105%
 }
 .navbar .active {
     text-decoration: underline;
 }
 
-
-h1 {
-    padding: 10px;
+footer {
+    background-color: #00385F;
+    color: lightgray;
+    margin-top: auto;
+    font-size: 12px;
 }
-
