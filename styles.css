@@ -159,4 +159,8 @@ a:link {
     text-decoration: underline;
 }
 
+thead {
+    font-weight: bold;
+}
+
 @media screen and (max-width: 700px) {.navbar { flex-direction: column; } }
