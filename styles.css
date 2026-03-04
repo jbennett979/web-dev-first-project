@@ -87,11 +87,13 @@ footer {
 .directory {
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .directory img {
     width:  100px;
-    height: 100px;
+    height: 125px;
     object-fit: cover;
 }
 
