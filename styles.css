@@ -98,12 +98,22 @@ footer {
 }
 
 .psa {
+    display: flex;
     padding: 10px;
-    font-size: 10px;
+    /* font-size: 10px; */
     color: #870609;
+    background-color: rgb(230, 121, 121);
+    margin: 10px;
 }
+
 .psa img {
     width:  100px;
     height: 125px;
     object-fit: cover;
+}
+
+.psa h1 {
+    padding: horizontal=10px;
+    margin-left: 10px;
+    font-size: 20px;
 }
