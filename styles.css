@@ -74,9 +74,36 @@ button:hover {
     align-content: center;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 footer {
     background-color: #00385F;
     color: lightgray;
     margin-top: auto;
     font-size: 12px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.table img {
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.psa {
+    padding: 10px;
+    font-size: 10px;
+    color: #870609;
+}
+.psa img {
+    width:  100px;
+    height: 125px;
+    object-fit: cover;
 }

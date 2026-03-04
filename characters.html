@@ -8,13 +8,11 @@
 </head>
 <body>
     <header>
-        <h1>The Muppets!</h1>
         <!-- Navigation Bar -->
         <div class="navbar">
             <a href="index.html">
-                <h1>Home</h1>
+                <h1>Muppet Homepage</h1>
             </a>
-
             <a href="movie_media.html" alternate="Waldorf">
                 <img src="images/waldorf.jpg">
                 <p>Movie Info</p>
@@ -25,32 +23,44 @@
             </a>
         </div>
     </header>
-    <p>CHARACTERS</p>
+    <div class="psa">
+        <div>
+            <img src="images/headshots/constantine.png" alternate="Constantine">
+            <h1>Have you seen this frog???</h1>
+        </div>
+    </div>
 
-    <script>
-            function createtable() {
-                let tableHTML = "<table>";
-                
-                for (let i=0; i <= tableMax; i++) {
-                    tableHTML += "<tr>";
-                    for (let j=1; j <= tableMax; j++) {
-                        tableHTML += "<td>" + i * j + "</td>";
-                    }
-                    tableHTML += "</tr>";
-                }   
-                                
-                tableHTML += "</table>";
-                
-                document.getElementById("multiplicationTable").innerHTML = tableHTML;
-            }
-        </script>
-        
-        <h3>Multiplication Table</h3>
-        <label for="tableMax">Table Up To</label>
-        <input type="number" id="tableMax">
-        <div id="multiplicationTable"></div>
-        <button onclick="generateMultiplicationTable()">Generate Table</button>
-
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <h2>Muppet Directory</h2>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kermit The Frog</td>
+                    <td><img src="images/headshots/kermit.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Miss Piggy</td>
+                    <td><img src="images/headshots/miss_piggy.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Gonzo The Great</td>
+                    <td><img src="images/headshots/gonzo.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Fozzie Bear</td>
+                    <td><img src="images/headshots/fozzie.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Animal</td>
+                    <td><img src="images/headshots/animal.jpg"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     
 
 
