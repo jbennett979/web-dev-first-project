@@ -103,13 +103,29 @@ footer {
 
 
 .movies {
-    color: #F2F2F2;
     display: flex;
+    background-color: #F2F2F2;
     flex-direction: column;
+    margin: horizontal=10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 20px;
 }
-.movies table, th, td {
+
+.movies th, td {
     border: 1px solid #F24405;
-    border-collapse: collapse;
+}
+
+.movies a {
+    color: #a3be57;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.movies img {
+    width:  100px;
+    height: 125px;
+    object-fit: cover;
 }
 
 .name {
@@ -135,4 +151,10 @@ footer {
     padding: horizontal=10px;
     margin-left: 10px;
     font-size: 20px;
+}
+
+a:link {
+    color: #a3be57;
+    background-color: transparent;
+    text-decoration: underline;
 }
