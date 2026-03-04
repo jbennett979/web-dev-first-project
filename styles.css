@@ -7,9 +7,9 @@ Color palette:
 #870609 red
 */
 
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 body {
     background-color: #F2F2F2;
@@ -38,7 +38,7 @@ button:hover {
     /* padding: 10px; */
     /* width: 100%; */
     overflow: auto;
-    align-content: center;
+    /* align-content: center; */
 
 }
 
@@ -63,6 +63,15 @@ button:hover {
 }
 .navbar .active {
     text-decoration: underline;
+}
+
+.navbar p {
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    align-content: center;
 }
 
 footer {
