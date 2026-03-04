@@ -87,8 +87,10 @@ footer {
 .directory {
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #F2F2F2;
+    margin: 20px;
 }
 
 .directory img {
@@ -96,6 +98,7 @@ footer {
     height: 125px;
     object-fit: cover;
 }
+
 
 .movies {
     color: #F2F2F2;
